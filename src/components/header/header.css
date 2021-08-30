@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    z-index: 100;
+    width: 100%;
+    
+  }
+  
+  .header__icon {
+    object-fit: contain;
+    height: 100px;
+    margin-left: 20px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+  }
+  
+  .header__search > input {
+    border: none;
+    border: 0px solid;
+    padding: 10px;
+    outline-width: none;
+
+  }
+  .header__search > input:focus {
+    border: none;
+    padding: 10px;
+    outline-width: 0 ;
+  }
+  .MuiSvgIcon-root {
+    background-color:#ff385c;
+    border-radius: 50% !important;
+    color: #FFFFFF !important;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  
